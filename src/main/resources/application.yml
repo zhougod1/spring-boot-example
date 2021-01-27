@@ -9,6 +9,6 @@ spring:
     continue-on-error: true
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.jdbc.Driver
-mybatis:
+mybatis-plus:
   type-aliases-package: sb.project.example.entity
   mapper-locations: classpath:mapper/*.xml

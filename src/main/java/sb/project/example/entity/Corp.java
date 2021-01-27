@@ -8,9 +8,9 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class Corp {
 
-    private Integer corp_id;
+    private Integer corpId;
 
-    private Integer city_id;
+    private Integer cityId;
 
-    private String corp_name;
+    private String corpName;
 }
